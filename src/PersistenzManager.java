@@ -159,9 +159,6 @@ public class PersistenzManager {
 		raf.close();
 		if (this._puffer.size()==1) {
 			this.schreibenAusPufferPool("fertig"+taid);	
-			
-//			RecoveryWerkzeug rwzg = new RecoveryWerkzeug();
-//			rwzg.crashRecovery();
 		}
 	}
 	
@@ -181,7 +178,7 @@ public class PersistenzManager {
 		raf.close();
 	}
 	
-	private int getLogSN(){//int pageid,int taid
+	private int getLogSN(){
 		int logSN;
         boolean flag;     
         do {     

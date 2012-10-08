@@ -6,6 +6,5 @@ public class Laufen {
 	Client client3 = new Client("3");
 	Client client4 = new Client("4");
 	Client client5 = new Client("5");
-
-	
+    	
 }

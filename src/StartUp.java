@@ -11,14 +11,13 @@ public class StartUp {
 	 * wird man jeweils code Kommentiert und auskommentiert
 	 */
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
-		Laufen lauft = new Laufen();
-		new Thread(lauft.client1).start();
-		new Thread(lauft.client2).start();
-		new Thread(lauft.client3).start();
-		new Thread(lauft.client4).start();
-		new Thread(lauft.client5).start();
-//		RecoveryWerkzeug rw = new RecoveryWerkzeug();
-//		rw.crashRecovery();
+//		Laufen lauft = new Laufen();
+//		new Thread(lauft.client1).start();
+//		new Thread(lauft.client2).start();
+//		new Thread(lauft.client3).start();
+//		new Thread(lauft.client4).start();
+//		new Thread(lauft.client5).start();
+		RecoveryWerkzeug rw = new RecoveryWerkzeug();
+		rw.crashRecovery();
 	}
 }
